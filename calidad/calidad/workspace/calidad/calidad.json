@@ -1,0 +1,122 @@
+{
+ "app": "calidad",
+ "charts": [],
+ "content": "[{\"id\":\"rUmpi8mAPu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Calidad</span>\",\"col\":12}},{\"id\":\"CjXXACP0Np\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Certificados\",\"col\":3}},{\"id\":\"odob7TRLvM\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"c66KslKLOR\",\"type\":\"card\",\"data\":{\"card_name\":\"Cat\u00e1logos\",\"col\":4}}]",
+ "creation": "2026-01-26 10:51:02.886695",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "grid",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Calidad",
+ "link_type": "DocType",
+ "links": [
+  {
+   "description": "Cat\u00e1logos del sistema",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logos",
+   "link_count": 7,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Acabados",
+   "link_count": 0,
+   "link_to": "Acabado",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flautas",
+   "link_count": 0,
+   "link_to": "Flauta",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pegado Uni\u00f3n",
+   "link_count": 0,
+   "link_to": "Pegado Union",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipos de producto",
+   "link_count": 0,
+   "link_to": "Tipo Producto",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Autoriz\u00f3",
+   "link_count": 0,
+   "link_to": "Autorizo",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Elabor\u00f3",
+   "link_count": 0,
+   "link_to": "Elaboro",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspeccion\u00f3",
+   "link_count": 0,
+   "link_to": "Inspecciono",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-01-26 16:01:03.852594",
+ "modified_by": "Administrator",
+ "module": "Calidad",
+ "name": "Calidad",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Certificados",
+   "link_to": "Certificado",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Calidad",
+ "type": "Workspace"
+}

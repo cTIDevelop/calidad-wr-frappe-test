@@ -1,0 +1,20 @@
+{
+ "app": "calidad",
+ "creation": "2026-01-26 12:04:21.807994",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "quality",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Calidad",
+ "link_to": "Calidad",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-01-26 12:04:21.807994",
+ "modified_by": "Administrator",
+ "name": "Calidad",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

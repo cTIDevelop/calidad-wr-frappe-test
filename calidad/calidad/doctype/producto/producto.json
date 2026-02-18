@@ -1,0 +1,312 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "PROD-.######",
+ "creation": "2026-01-26 13:31:24.491385",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "no_producto",
+  "column_break_mjrt",
+  "clave",
+  "tipo_producto",
+  "column_break_hrrk",
+  "cliente",
+  "elaboro",
+  "dimensiones",
+  "largo",
+  "column_break_bvxz",
+  "alto",
+  "column_break_uywa",
+  "ancho",
+  "aletas",
+  "tapa",
+  "fondo",
+  "r_compresio0n",
+  "column_break_reds",
+  "acabado",
+  "flauta",
+  "column_break_lgkq",
+  "calibre",
+  "humedad",
+  "impresi\u00f3n_section",
+  "tonos",
+  "textos",
+  "column_break_dpod",
+  "pegado_union",
+  "pieza_atado",
+  "l\u00e1mina_section",
+  "codigo_barras",
+  "column_break_kbcb",
+  "valor_cobb",
+  "section_break_pbag",
+  "encuadre",
+  "column_break_jbhn",
+  "dano_resgdr",
+  "column_break_sibm",
+  "peso"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre",
+   "length": 100,
+   "reqd": 1
+  },
+  {
+   "fieldname": "no_producto",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "No Producto",
+   "non_negative": 1,
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_mjrt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clave",
+   "fieldtype": "Data",
+   "label": "Clave",
+   "length": 20
+  },
+  {
+   "fieldname": "tipo_producto",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tipo Producto",
+   "options": "Tipo Producto",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hrrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cliente",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Cliente",
+   "options": "Cliente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "elaboro",
+   "fieldtype": "Link",
+   "label": "Elabor\u00f3",
+   "options": "Elaboro",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dimensiones",
+   "fieldtype": "Section Break",
+   "label": "Dimensiones"
+  },
+  {
+   "fieldname": "largo",
+   "fieldtype": "Data",
+   "label": "Largo",
+   "length": 20,
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_bvxz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alto",
+   "fieldtype": "Data",
+   "label": "Alto",
+   "length": 20,
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_uywa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ancho",
+   "fieldtype": "Data",
+   "label": "Ancho",
+   "length": 20,
+   "non_negative": 1
+  },
+  {
+   "fieldname": "aletas",
+   "fieldtype": "Section Break",
+   "label": "Aletas"
+  },
+  {
+   "fieldname": "tapa",
+   "fieldtype": "Int",
+   "label": "Tapa",
+   "length": 20
+  },
+  {
+   "fieldname": "fondo",
+   "fieldtype": "Data",
+   "label": "Fondo",
+   "length": 20
+  },
+  {
+   "fieldname": "r_compresio0n",
+   "fieldtype": "Data",
+   "label": "R a la Compresi\u00f3n",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_reds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lgkq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acabado",
+   "fieldtype": "Link",
+   "label": "Acabado",
+   "options": "Acabado"
+  },
+  {
+   "fieldname": "flauta",
+   "fieldtype": "Link",
+   "label": "Flauta",
+   "options": "Flauta"
+  },
+  {
+   "fieldname": "calibre",
+   "fieldtype": "Float",
+   "label": "Calibre",
+   "non_negative": 1,
+   "precision": "3"
+  },
+  {
+   "fieldname": "humedad",
+   "fieldtype": "Percent",
+   "label": "Humedad",
+   "precision": "1"
+  },
+  {
+   "fieldname": "impresi\u00f3n_section",
+   "fieldtype": "Section Break",
+   "label": "Impresi\u00f3n"
+  },
+  {
+   "fieldname": "tonos",
+   "fieldtype": "Data",
+   "label": "Tonos",
+   "length": 20
+  },
+  {
+   "fieldname": "textos",
+   "fieldtype": "Data",
+   "label": "Textos",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_dpod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pegado_union",
+   "fieldtype": "Link",
+   "label": "Pegado Union",
+   "options": "Pegado Union"
+  },
+  {
+   "fieldname": "pieza_atado",
+   "fieldtype": "Data",
+   "label": "Pieza por Atado",
+   "length": 20
+  },
+  {
+   "fieldname": "l\u00e1mina_section",
+   "fieldtype": "Section Break",
+   "label": "L\u00e1mina"
+  },
+  {
+   "fieldname": "codigo_barras",
+   "fieldtype": "Data",
+   "label": "C\u00f3digo de barras",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_kbcb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "valor_cobb",
+   "fieldtype": "Data",
+   "label": "Valor de Cobb",
+   "length": 20
+  },
+  {
+   "fieldname": "section_break_pbag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "encuadre",
+   "fieldtype": "Data",
+   "label": "Encuadre",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_jbhn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dano_resgdr",
+   "fieldtype": "Data",
+   "label": "Da\u00f1o/Rasgaduras",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_sibm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "peso",
+   "fieldtype": "Data",
+   "label": "Peso",
+   "length": 50
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-27 09:38:57.536852",
+ "modified_by": "Administrator",
+ "module": "Calidad",
+ "name": "Producto",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "no_producto",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "nombre"
+}
